@@ -1,0 +1,24 @@
+#page-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%
+}
+
+#page-header .logo {
+    height: 50px;
+    display: flex;
+}
+
+#page-header .logo-chain {
+    align-self: flex-end;
+}
+
+#page-header .delicious {
+    margin-left: 5px;
+}
+
+#page-header .logo-chain .pint-icon {
+    margin-right: 6px;
+}
