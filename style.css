@@ -1,3 +1,8 @@
+body {
+    width: 80%;
+    margin: 50px auto;
+}
+
 #page-header {
     display: flex;
     flex-direction: row;
@@ -21,4 +26,12 @@
 
 #page-header .logo-chain .pint-icon {
     margin-right: 6px;
+}
+
+hr {
+    background-image: url('./img/icons/hr-img.png');
+    background-repeat: repeat;
+    height: 13px;
+    display: block;
+    border: 10px;
 }
